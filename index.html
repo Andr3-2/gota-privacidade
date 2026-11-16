@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gota — Política de privacidade</title>
+<style>
+  :root { --bg: #fafaf9; --text: #1c1917; --muted: #57534e; --accent: #ea580c; --line: #e7e5e4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1917; --text: #f5f5f4; --muted: #a8a29e; --accent: #fb923c; --line: #44403c; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 8px 8px 0; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidade da Gota</h1>
+<p class="meta">Última atualização: 16 de novembro de 2026</p>
+
+<p>A Gota é uma app Android grátis que mostra os postos de combustível mais baratos à tua volta, em Portugal continental, e a evolução do preço médio nacional. É um projeto pessoal de André Almeida.</p>
+
+<p><strong>Em resumo:</strong> a Gota não tem contas, login, publicidade, analytics nem servidores próprios. A tua localização é usada no telemóvel para encontrar os postos perto de ti. Só sai do telemóvel num caso: para mostrar o nome da tua zona, o Android envia as coordenadas aos serviços da Google.</p>
+
+<h2>Localização</h2>
+<p>Com a tua autorização, a Gota usa a localização do telemóvel (precisa ou aproximada, conforme escolheres) <strong>só enquanto a app está aberta</strong>. Nunca a usa em segundo plano. Se recusares, podes escolher um distrito à mão e a app funciona na mesma.</p>
+<p>A localização serve para:</p>
+<ul>
+  <li><strong>Encontrar os postos perto de ti.</strong> A distância a cada posto é calculada no próprio telemóvel. A lista de postos é descarregada para o país inteiro, por isso a tua localização não é enviada a ninguém para este fim.</li>
+  <li><strong>Mostrar o nome da tua zona</strong> (bairro e município). Para isso, a Gota usa o serviço de geocodificação do Android (Geocoder), que <strong>envia as coordenadas exatas aos serviços da Google</strong> e recebe de volta o nome da zona. Esse pedido é tratado pela Google segundo a <a href="https://policies.google.com/privacy?hl=pt-PT">Política de Privacidade da Google</a>. A Gota não recebe nem guarda as coordenadas em servidor nenhum (não tem servidores).</li>
+</ul>
+
+<h2>O que fica guardado no telemóvel</h2>
+<p>Tudo o que a Gota guarda fica só no teu telemóvel e é apagado quando desinstalas a app ou limpas os dados dela nas definições do Android.</p>
+<table>
+  <tr><th>O quê</th><th>Durante quanto tempo</th></tr>
+  <tr><td>Nome da zona, associado a uma área de cerca de 500 m (para não repetir o pedido à Google)</td><td>30 dias</td></tr>
+  <tr><td>Preços e postos descarregados da DGEG e médias diárias nacionais</td><td>Até serem substituídos por dados mais recentes</td></tr>
+  <tr><td>Preferências: combustível, raio de pesquisa, tema, distrito escolhido à mão</td><td>Até as mudares ou desinstalares a app</td></tr>
+</table>
+<p>A Gota não guarda um histórico das tuas localizações.</p>
+
+<h2>Serviços externos</h2>
+<p>Para funcionar, a app liga-se a estes serviços. Nenhum destes pedidos leva o teu nome, email, identificador do telemóvel ou da publicidade, nem a tua localização, exceto o Geocoder descrito acima. Como em qualquer ligação à internet, cada serviço vê o endereço IP do telemóvel.</p>
+<table>
+  <tr><th>Serviço</th><th>Para quê</th><th>O que recebe</th></tr>
+  <tr><td>DGEG — <a href="https://precoscombustiveis.dgeg.gov.pt/">Preços dos Combustíveis</a></td><td>Preços e postos (fonte oficial dos dados)</td><td>O combustível pedido; os pedidos são para o país inteiro</td></tr>
+  <tr><td><a href="https://openfreemap.org/">OpenFreeMap</a></td><td>Imagens do mapa (dados © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>)</td><td>As partes do mapa que estás a ver</td></tr>
+  <tr><td>Geocoder do Android (Google)</td><td>Nome da zona</td><td>As coordenadas da tua localização</td></tr>
+</table>
+<p>Quando tocas em "Ir", a Gota abre a app de mapas que escolheres (ou o OpenStreetMap no browser) com as coordenadas do posto. O que essa app faz a seguir rege-se pela política de privacidade dela.</p>
+
+<h2>O que a Gota não faz</h2>
+<ul>
+  <li>Não tem contas nem login.</li>
+  <li>Não mostra publicidade.</li>
+  <li>Não usa analytics, rastreio nem serviços de relatórios de erros de terceiros.</li>
+  <li>Não vende nem partilha dados pessoais com ninguém.</li>
+</ul>
+
+<h2>Crianças</h2>
+<p>A Gota destina-se a adultos que conduzem e não recolhe dados pessoais de ninguém, incluindo crianças.</p>
+
+<h2>Os teus direitos</h2>
+<p>Como a Gota não guarda dados pessoais fora do teu telemóvel, não há nada sobre ti em posse do programador para consultar, corrigir ou apagar. Podes retirar a autorização de localização a qualquer momento nas definições do Android e apagar tudo o que a app guardou limpando os dados dela ou desinstalando-a. Sobre os dados tratados pela Google no pedido de geocodificação, consulta a política da Google.</p>
+
+<h2>Alterações</h2>
+<p>Se esta política mudar, a versão nova fica nesta página, com a data atualizada no topo.</p>
+
+<h2>Contacto</h2>
+<p>Dúvidas sobre esta política: <a href="mailto:andrefigalmeida@gmail.com">andrefigalmeida@gmail.com</a></p>
+</main>
+</body>
+</html>
